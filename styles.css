@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.game-area {
+  position: relative;
+}
+
+.coin {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+.balance {
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+#clickButton {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#clickButton:hover {
+  transform: scale(0.9);
+}
